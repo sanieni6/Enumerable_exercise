@@ -1,4 +1,4 @@
-require_relative 'MyEnumerable'
+require './my_enumerable'
 
 # Create class MyList
 class MyList
@@ -20,7 +20,7 @@ list = MyList.new(3, 4, 5, 6)
 # Test MyEnumerable methods
 all_numbers = list.all? { |n| n < 6 }
 any_three = list.any? { |n| n == 3 }
-even_numbers = list.filter { |n| n.even? }
+even_numbers = list.filter(&:even?)
 
 # Output
 puts <<~TEXT
