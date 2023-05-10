@@ -1,4 +1,4 @@
-require_relative 'MyEnumerable.rb'
+require './my_enumerable'
 
 # Create class MyList
 class MyList
