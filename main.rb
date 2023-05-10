@@ -1,4 +1,4 @@
-require_relative 'MyEnumerable.rb'
+require_relative 'MyEnumerable'
 
 # Create class MyList
 class MyList
@@ -24,8 +24,7 @@ even_numbers = list.filter { |n| n.even? }
 
 # Output
 puts <<~TEXT
-  All < 6: #{all_numbers} 
+  All < 6: #{all_numbers}#{' '}
   Any 3: #{any_three}
   Even numbers found: #{even_numbers}
 TEXT
-
