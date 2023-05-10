@@ -47,7 +47,7 @@ This project is a Ruby program that demonstrates the use of modules and classes 
 
 ### Key Features <a name="key-features"></a>
 
-- **[Decode morse code messages]**
+- **[Explore the enumerable module and how to use it]**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -66,8 +66,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:NicolasAndrehh/Ruby-Introduction.git
-  cd Ruby-Introduction
+  git clone git@github.com:NicolasAndrehh/Enumerable_exercise.git
+  cd Enumerable_exercise
 ```
 
 ### Usage
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  ruby morse.rb
+  main.rb
 ```
 
 ## 👥 Authors <a name="authors"></a>
